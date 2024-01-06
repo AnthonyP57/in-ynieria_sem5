@@ -30,7 +30,7 @@ sns.regplot(x=X, y=Y, data=df, scatter_kws={'s': 100}, ci=None, label='Raschig')
 sns.scatterplot(x=X, y=Y, data=df[df['type'] == 'Pall'], color='red', s=100, label='Pall')
 
 # Calculate and display R-squared for both types combined
-X_combined = df[[X]]
+X_combined = df[X]
 y_combined = df[Y]
 model_combined = LinearRegression().fit(X_combined, y_combined)
 y_combined_pred = model_combined.predict(X_combined)
