@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Create DataFrame
+# Create the DataFrame
 data = {
     "WRPT": [0.7632, 0.4267, 1.6535, 2.1415, 0.3174, 0.8376, 1.4143],
     "D_m":[.408, .482, .329, .309, .437, .348, .307],
