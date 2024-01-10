@@ -12,4 +12,9 @@ by visual interpretation of different plots:
 
 ![](https://github.com/AnthonyP57/inzynieria_sem5/blob/main/example_photos/shap.png)
 
+
+* Heatmap for theoretical plate
+
+![](https://github.com/AnthonyP57/inzynieria_sem5/blob/main/example_photos/wrpt%20heat%20map.png)
+
 Have fun I guess
